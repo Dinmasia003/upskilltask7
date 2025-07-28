@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Food App</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+  
+</head>
+<body>
+  <div class="logo-section"> 
+    <!-- This section contains the logo and the search bar -->
+    <h1 class="logo-text"> FOOD</h1>
+    <!-- <input type="text" placeholder="search"> -->
+  </div>
+
+  <div class="food-and-order">
+    <!-- This div contains this foods and the food ordered by the left -->
+    <div class="food-section">
+      <!-- This div contains all the available foods with images -->
+       
+      <div class="each-food">
+        <img src="/foodImages/egusi.jpeg" alt="no image found" width="200px" height="200px">
+        <h4 class="food-name">Egusi soup</h4>
+        <p>Egusi soup and Semo</p>
+        <p class="food-price"> N3500</p>
+        <input type="number" class="food-qty" min="1" value="1">
+        <button type="button" class="add-to-plate">Add to plate</button>
+      </div>
+      <div class="each-food">
+        <img src="/foodImages/friedrice.jpeg" alt="no image found" width="200px" height="200px">
+        <h4 class="food-name">Fried Rice</h4>
+        <p>Fried rice and chicken</p>
+        <p class="food-price"> N4000</p>
+        <input type="number" class="food-qty" min="1" value="1">
+        <button type="button" class="add-to-plate">Add to plate</button>
+      </div>
+      <div class="each-food">
+        <img src="/foodImages/jollofrice.jpeg" alt="no image found" width="200px" height="200px">
+        <h4 class="food-name">Jollof Rice</h4>
+        <p>Jollof Rice and chicken/p>
+        <p class="food-price"> N3500</p>
+        <input type="number" class="food-qty" min="1" value="1">
+        <button type="button" class="add-to-plate">Add to plate</button>
+      </div>
+      <div class="each-food">
+        <img src="/foodImages/peppersoup.jpeg" alt="no image found" width="200px" height="200px">
+        <h4 class="food-name">Pepper soup</h4>
+        <p>Pepper Soup and Assorted meat</p>
+        <p class="food-price"> N2000</p>
+        <input type="number" class="food-qty" min="1" value="1">
+        <button type="button" class="add-to-plate">Add to plate</button>
+      </div>
+      <div class="each-food">
+        <img src="/foodImages/spaghetti.jpeg" alt="no image found" width="200px" height="200px">
+        <h4 class="food-name">Spaghetti</h4>
+        <p>Spaghetti and cheeze</p>
+        <p class="food-price"> N2500</p>
+        <input type="number" class="food-qty" min="1" value="1">
+        <button type="button" class="add-to-plate">Add to plate</button>
+      </div>
+      <div class="each-food">
+        <img src="/foodImages/vegisoup.jpeg" alt="no image found" width="200px" height="200px">
+        <h4 class="food-name">Vegetable Soup</h4>
+        <p>Vegetable Soup and fufu</p>
+        <p class="food-price"> N3500</p>
+        <input type="number" class="food-qty" min="1" value="1">
+        <button type="button" class="add-to-plate">Add to plate</button>
+      </div>
+    
+
+    </div>
+    
+    <div class="order-area">
+      <!-- Orders will appear hear -->
+       <p>Orders will appear here</p>
+      <div id="cart-items"></div>
+      <div><p>Total = N<span id="total"> 0</span></p></div>
+      <button id="submit-order">Submit Your Order</button>
+      <button id="restCart"> Clear all orders</button>
+      
+    </div>
+
+  </div>
+
+
+
+  <script src='script.js'></script>
+</body>
+</html>

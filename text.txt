@@ -1,0 +1,12 @@
+  //This wil display the selected items in the cart list
+    // const orderedList = document.createElement('li');
+    // orderedList.textContent = `${foodName} - ${foodPrice}`
+    // console.log(orderedList)
+    // cart.appendChild(orderedList)
+
+    //and this will update the prices
+    // total += price
+    // totalPrice.textContent = 'N' + total
+
+
+    *******cut out from line 32***
